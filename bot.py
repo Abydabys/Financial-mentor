@@ -30,8 +30,8 @@ logging.basicConfig(
 )
 logger = logging.getLogger(__name__)
 
-TELEGRAM_TOKEN = os.getenv("TELEGRAM_BOT_TOKEN")
-GEMINI_API_KEY = os.getenv("GEMINI_API_KEY")
+TELEGRAM_TOKEN = os.getenv("8616122445:AAGVYlHrGMkG3VagzQhrh68O6EzV1uenzRs")
+GEMINI_API_KEY = os.getenv("AIzaSyAoJL6_R6YHf8BcwD81_aK_BBosrYmKpEc")
 
 if not TELEGRAM_TOKEN:
     raise ValueError("TELEGRAM_BOT_TOKEN is not set in environment variables")
